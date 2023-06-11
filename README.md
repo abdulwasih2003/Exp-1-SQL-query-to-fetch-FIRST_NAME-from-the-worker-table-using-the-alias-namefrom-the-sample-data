@@ -1,16 +1,18 @@
 # Exp-1 SQL query to fetch "FIRST_NAME" from the worker table using the alias namefrom the sample data
-## AIM:
+## Aim:
 To write a sql query to fetch "FIRST_NAME" from the worker table using the alias name from the sample data.
-## PROCEDURE:
-### STEP 1:
-create database ORG.
-### STEP 2:
-create table Worker,Bonus,Title.
-### STEP 3:
+## Algorithm:
+### Step 1:
+Create database ORG.
+### Step 2:
+Create table Worker,Bonus,Title.
+### Step 3:
 Insert Value to the tables.
-### STEP 4:
+### Step 4:
 Select firstname from the table worker as name.
-## PROGRAM:
+### Step 5:
+Display the result.
+## Program:
 ```sql
 CREATE DATABASE ORG;
 SHOW DATABASES;
@@ -78,7 +80,7 @@ INSERT INTO Title
 SELECT FIRST_NAME AS name
 FROM Worker;
 ```
-## OUTPUT:
+## Output:
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX01/assets/93427303/d97ee845-f3de-4c69-b256-54dcd9350f08)
-## RESULT:
+## Result:
 A sql query to fetch "FIRST_NAME" from the worker table using the alias name from the sample data has been executed.
